@@ -1,0 +1,61 @@
+dateModified: 1694626998
+email:
+  fromEmail: jokido@jbjokido.be
+  fromName: Jokido
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  uploads:
+    hasUrls: true
+    name: Uploads
+    settings:
+      path: $ASSETS_BASE_PATH
+    type: craft\fs\Local
+    url: $ASSETS_BASE_URL
+graphql:
+  publicToken:
+    enabled: false
+    expiryDate: null
+meta:
+  __names__:
+    0f1b964c-d096-4fe5-a30f-8066829f0ebc: Datum # Datum
+    1b5af95e-cddc-4338-b9d1-ac36aa0ef2af: Link # Link
+    1eea3746-ea4f-453f-8444-636d86fc8576: Common # Common
+    4b33d5b8-01c9-46a1-972a-5148eb8f2b60: 'Link Text' # Link Text
+    7edce117-9cac-46c3-99ab-efa911426def: 'Navigation Links' # Navigation Links
+    7f6521f6-c89b-4510-afa9-adce0f67f81e: Home # Home
+    8bae22ab-6594-4c50-8e65-dbb5b9658d75: Message # Message
+    24de9d2e-7b72-4f55-b95c-b23a0695b3cc: 'Hero Image' # Hero Image
+    0278f574-a1f8-4988-8357-176b874bb107: Messages # Messages
+    1317c683-2c55-4809-a2f3-c6684f731d45: Header # Header
+    5037c112-5fa8-448e-92ae-8646dea478cb: Messages # Messages
+    6594f204-05cd-41a0-a20a-26e1e2c46157: Jokido # Jokido
+    10996d6a-066c-4e8f-9151-07a4d512d294: Home # Home
+    19797ed3-eb56-48d3-b932-ccc68cc23cb3: Home # Home
+    094060d6-9a31-40f7-a077-278d10193d0d: Homepage # Homepage
+    927209b4-6136-43b6-889f-388be3e85cbf: 'Hero Title' # Hero Title
+    afb9e0e1-fd4e-42d7-a862-2fa7db981b36: Image # Image
+    b700f352-43cc-42e6-9d13-1f537ab05938: Inhoud # Inhoud
+    b11466c4-2a33-4968-b170-635dcbe1c186: Titel # Titel
+    bd1e2832-cdcd-433c-98d5-de4b648a9218: Uploads # Uploads
+    c3c3e4b3-9456-41cd-8c6b-fd58555d4f1b: 'Link Destination' # Link Destination
+    deafcb2b-fad0-42a6-a5c2-0ff6db72ec84: Messages # Messages
+    e720509c-a7f5-4364-88f9-03cae61b365b: Jokido # Jokido
+    f52cd7bc-8cbd-49a8-9d53-b731ad7fcb07: 'Hero Subtitle' # Hero Subtitle
+plugins:
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+system:
+  edition: solo
+  live: true
+  name: Jokido
+  retryDuration: null
+  schemaVersion: 4.5.3.0
+  timeZone: Europe/Brussels
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

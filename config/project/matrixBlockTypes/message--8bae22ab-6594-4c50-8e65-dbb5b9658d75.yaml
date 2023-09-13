@@ -1,0 +1,178 @@
+field: 0278f574-a1f8-4988-8357-176b874bb107 # Messages
+fieldLayouts:
+  767d3fd3-a617-492f-a276-9fa5d521aab1:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 0f1b964c-d096-4fe5-a30f-8066829f0ebc # Datum
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b54d31a9-0177-4430-bfe4-c235cb9f6e57
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: b11466c4-2a33-4968-b170-635dcbe1c186 # Titel
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 777db2ea-cdb3-4d1b-b5a1-10ab41eade09
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: afb9e0e1-fd4e-42d7-a862-2fa7db981b36 # Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 985400a8-c0ea-411d-a17e-513e429eb870
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: b700f352-43cc-42e6-9d13-1f537ab05938 # Inhoud
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1d777042-dc6d-4b47-90e7-4a074a67d4c8
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 3c8aea59-3ee3-43d1-a88f-8f2b65a19c64
+        userCondition: null
+fields:
+  0f1b964c-d096-4fe5-a30f-8066829f0ebc: # Datum
+    columnSuffix: bdsymdva
+    contentColumnType: datetime
+    fieldGroup: null
+    handle: datum
+    instructions: null
+    name: Datum
+    searchable: false
+    settings:
+      max: null
+      min: null
+      minuteIncrement: 30
+      showDate: true
+      showTime: false
+      showTimeZone: false
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Date
+  afb9e0e1-fd4e-42d7-a862-2fa7db981b36: # Image
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: image
+    instructions: null
+    name: Image
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds:
+        - image
+      branchLimit: null
+      defaultUploadLocationSource: 'volume:bd1e2832-cdcd-433c-98d5-de4b648a9218' # Uploads
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maintainHierarchy: false
+      maxRelations: 1
+      minRelations: null
+      previewMode: full
+      restrictFiles: true
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:bd1e2832-cdcd-433c-98d5-de4b648a9218' # Uploads
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: null
+      showSiteMenu: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      sources:
+        - 'volume:bd1e2832-cdcd-433c-98d5-de4b648a9218' # Uploads
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: large
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  b700f352-43cc-42e6-9d13-1f537ab05938: # Inhoud
+    columnSuffix: medtnxeq
+    contentColumnType: text
+    fieldGroup: null
+    handle: inhoud
+    instructions: null
+    name: Inhoud
+    searchable: false
+    settings:
+      availableTransforms: ''
+      availableVolumes: '*'
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: null
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+  b11466c4-2a33-4968-b170-635dcbe1c186: # Titel
+    columnSuffix: bttsdbqt
+    contentColumnType: text
+    fieldGroup: null
+    handle: titel
+    instructions: null
+    name: Titel
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: message
+name: Message
+sortOrder: 1

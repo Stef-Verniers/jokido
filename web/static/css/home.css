@@ -1,0 +1,135 @@
+
+.hero-image {
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+.hero-image > img {
+    height: auto;
+    width: 100%;
+    object-fit: contain;
+}
+
+.hero-image > h1 {
+    width: 100%;
+    font-family: "gigalypse", sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    color: var(--green);
+    position: absolute;
+    bottom: 0;
+    background-color: var(--yellow);
+    text-align: center;
+    padding-top: 20px;
+}
+
+.hero-banner {
+    background-color: var(--yellow);
+    height: 12vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-banner > p {
+    width: 26ch;
+    color: var(--green);
+    font-size: 22px;
+    line-height: calc(24px * 1.4);
+    height: fit-content;
+}
+
+.main-content {
+    width: 95vw;
+    margin: auto;
+}
+
+section {
+    margin-bottom: 3vh;
+}
+
+section:nth-child(1) {
+    margin-top: 3vh;
+}
+
+section > h1 {
+    background-color: var(--green);
+    color: white;
+    padding: 1.5vh 15px
+}
+
+section > div {
+    width: 100%;
+    min-height: 15vh;
+    height: auto;
+    background-color: white;
+}
+
+.message {
+    width: 90%;
+    margin-inline: auto;
+    border-bottom: 1px solid lightgrey;
+    padding-top: 3vh;
+}
+
+.message > * {
+    margin-bottom: 2vh;
+}
+
+.message > span {
+    font-size: 13px;
+    letter-spacing: 0.2ch;
+}
+
+.message > h2 {
+    margin-top: 1vh;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: calc(22px*1.3);
+}
+
+.message > img {
+    width: 100%;
+}
+
+.text {
+    font-size: 16px;
+    line-height: calc(16px*1.4);
+}
+
+@media screen and (min-width: 762px) {
+
+    .hero-image {
+        height: 70vh;
+        width: 100%;
+    }
+
+    .hero-image > img {
+        height: 70vh;
+        width: 100%;
+        object-fit: cover;
+        object-position: 0% 13%;
+    }
+
+    .hero-image > h1 {
+        width: fit-content;
+        bottom: 3vh;
+        left: 3vh;
+        padding: 1rem;
+        font-size: 52px;
+    }
+
+    .hero-banner {
+        background-color: white;
+        height: 7vh;
+    }
+
+    .hero-banner > p {
+        width: 100%;
+        font-weight: 800;
+    }
+
+}

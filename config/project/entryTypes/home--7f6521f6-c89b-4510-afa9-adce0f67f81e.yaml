@@ -1,0 +1,70 @@
+fieldLayouts:
+  d496e428-f29e-49bd-af93-715743ceb513:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 24de9d2e-7b72-4f55-b95c-b23a0695b3cc # Hero Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9528cdee-529d-4559-abe1-e476800a8f83
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: fda7fd31-7800-433a-b455-1f3a509957e8
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: f52cd7bc-8cbd-49a8-9d53-b731ad7fcb07 # Hero Subtitle
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: bc09f665-c8ad-4ba1-8cab-d247ac4d3201
+            userCondition: null
+            warning: null
+            width: 100
+        name: Inhoud
+        uid: 22fd9e3f-f5aa-4b05-9dc8-d3454a525bd1
+        userCondition: null
+handle: home
+hasTitleField: true
+name: Home
+section: 10996d6a-066c-4e8f-9151-07a4d512d294 # Home
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

@@ -1,0 +1,33 @@
+<div class='mobile-header'>
+    <header>
+        <div class='mobile-icon-nav' id='mobile-icon'>
+            <div class='mobile-icon-nav--dash'></div>
+            <div class='mobile-icon-nav--dash'></div>
+            <div class='mobile-icon-nav--dash'></div>
+        </div>
+    </header>
+        <nav class='mobile-nav'>
+            {% for link in header.navigationLinks.all() %}
+                <a href='#'>{{ link.linkText }}</a>
+            {% endfor %}
+        </nav>
+</div>
+
+
+
+<div class='screen-header'>
+    <div class='info-header'>
+        <ul>
+            <li>Kruisstraat 1A, 9570 Deftinge</li>
+            <li>jokido@jbjokido.be</li>
+            <li>0491/98.70.03 | 0479/12.48.62</li>
+        </ul>
+    </div>
+    <header>
+        <nav class='screen-nav'>
+            {% for link in header.navigationLinks.all() %}
+                <a href='#'>{{ link.linkText }}</a>
+            {% endfor %}
+        </nav>
+    </header>
+</div>

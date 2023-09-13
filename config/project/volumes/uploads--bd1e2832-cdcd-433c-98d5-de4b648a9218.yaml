@@ -1,0 +1,43 @@
+fieldLayouts:
+  8301e109-0dbf-44c4-9e8c-5ca64d2ae504:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\assets\AssetTitleField
+            uid: 97a6c797-f1d5-4e5b-a888-db0c0af18d68
+            userCondition: null
+            warning: null
+            width: 100
+        name: Inhoud
+        uid: 2531e26e-8996-4140-acfb-d0ff168f29e5
+        userCondition: null
+fs: uploads
+handle: uploads
+name: Uploads
+sortOrder: 1
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+transformFs: ''
+transformSubpath: ''

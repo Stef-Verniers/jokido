@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: deafcb2b-fad0-42a6-a5c2-0ff6db72ec84 # Messages
+handle: messages
+instructions: null
+name: Messages
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_messages}}'
+  maxBlocks: null
+  minBlocks: null
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

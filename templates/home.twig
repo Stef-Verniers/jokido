@@ -1,0 +1,53 @@
+{% extends 'index' %}
+
+{% set hero = entry.heroImage.one() %}
+
+{% block content %}
+
+    <div class='hero-image'>
+        <img src='{{ hero.url }}'>
+        <h1>{{ entry.title }}</h1>
+    </div>
+
+    <div class='hero-banner'>
+        <p>{{ entry.heroSubtitle }}</p>
+    </div>
+
+    <div class='main-content'>
+
+        <section class="messages">
+            <h1>Recente berichten</h1>
+            <div class='messages-list'>
+                {% for message in messages.messages.all() %}
+                {% set image = message.image.one() %}
+                    <div class="message">
+                        <span class='date'>{{ message.datum|date('d-m-Y') }}</span>
+                        <h2>{{ message.titel }}</h2>
+                        {% if image %}
+                            <img src='{{ image.url }}'>
+                        {% endif %}
+                        <div class='text'>{{ message.inhoud }}</div>
+                    </div>
+                {% endfor %}
+            </div>
+        </section>
+
+        <section class="calendar">
+            <h1>Kalender</h1>
+        </section>
+
+        <section class="sponsors">
+            <h1>Bedankt sponsors!</h1>
+            <div class='sponsor-list'></div>
+        </section>
+
+        <section class="socials">
+            <h1>Socials</h1>
+            <div class='socials-list'></div>
+        </section>
+
+    </div>
+
+
+
+{% endblock %}

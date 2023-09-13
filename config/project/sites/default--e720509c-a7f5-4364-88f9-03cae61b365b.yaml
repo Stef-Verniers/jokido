@@ -1,0 +1,9 @@
+baseUrl: $PRIMARY_SITE_URL
+enabled: true
+handle: default
+hasUrls: true
+language: en
+name: Jokido
+primary: true
+siteGroup: 6594f204-05cd-41a0-a20a-26e1e2c46157 # Jokido
+sortOrder: 1

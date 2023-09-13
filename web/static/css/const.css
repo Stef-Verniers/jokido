@@ -1,0 +1,28 @@
+:root{
+
+position: relative;
+
+/* ===== Colors ===== */
+
+    /* Primary Groen */
+    --green: #235716;
+
+    /* Primary Yellow */
+    --yellow: #FBC831;
+
+    /* Neutral background */
+    --neutral: #e6e6e6;
+
+
+/* ===== Fonts ===== */
+
+    /* Main font */
+    font-family: century-gothic, sans-serif;
+    font-weight: 400;
+
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
