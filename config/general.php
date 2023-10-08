@@ -30,4 +30,9 @@ return GeneralConfig::create()
     ->aliases([
         '@webroot' => dirname(__DIR__) . '/web',
     ])
+    ->cpHeadTags([
+        // Traditional favicon
+        ['link', ['rel' => 'icon', 'href' => '/web/static/images/logo.png']],
+    ])
+    
 ;

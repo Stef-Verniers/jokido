@@ -1,0 +1,82 @@
+fieldLayouts:
+  50811928-4af6-4832-965d-f284ab1d4388:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 3b2c4982-3464-4778-b33b-655aded2e3b1 # Datum
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c3e76d3a-6682-4e74-8d40-9653fb4ef905
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: f62c0b66-159f-426c-9ef2-bd50d1893ff0
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 908427e9-dd81-4d23-a402-9385f4104d1f # Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 469f80e4-3054-402c-9026-0a52d9aa91d7
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: ff9dd005-cd88-4cf5-99b4-6055f1ad77a5 # inhoud
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8a969534-3554-4084-8e39-23823621d2e0
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: ddeb198b-0f78-4bd2-9e57-ed27f321af2c
+        userCondition: null
+handle: post
+hasTitleField: true
+name: Post
+section: 55f4e098-77ea-4732-bc0a-7e4f10b12ea7 # berichten
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

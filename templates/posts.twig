@@ -1,0 +1,29 @@
+{% extends 'index' %}
+
+{% block content %}
+
+        <div class='posts-content'>
+
+        <h1>Berichten</h1>
+
+            <section class="posts">
+                {% set posts = craft.entries.section('posts') %}
+                {% for post in posts %}
+                        {% set image = post.image.one() %}
+                        <div class="post-item">
+                            <div class="post">
+                                <span class='date'>{{ post.datum|date('d-m-Y') }}</span>
+                                <h2>{{ post.title }}</h2>
+                                {% if image %}
+                                    <img src='{{ image.url }}'>
+                                {% endif %}
+                                <div class='text'>{{ post.inhoud }}</div>
+                                <a class='read-more' href='{{ post.url }}'>Lees meer</a>
+                            </div>
+                        </div>
+                    {% endfor %}
+            </section>
+
+        </div>
+
+{% endblock %}

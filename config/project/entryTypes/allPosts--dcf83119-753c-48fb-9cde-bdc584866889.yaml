@@ -1,0 +1,46 @@
+fieldLayouts:
+  cd9dfb03-263d-4377-aa92-ba9ac10a9c15:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 1ac21c12-a74f-4d8f-83ad-60822a6e7ba8
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 7a9cc374-9f90-4c2f-9ab1-2ba612debda4
+        userCondition: null
+handle: allPosts
+hasTitleField: false
+name: posts
+section: f5231cfe-05b4-4956-8aff-3f33cd162d01 # posts
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

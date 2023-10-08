@@ -1,0 +1,36 @@
+fieldLayouts:
+  3b8d851f-9bcc-4a07-868c-7dbacbd14eeb:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: f2618f55-b131-4ee3-9861-81895a656ed7 # Sponsor Item
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1fc8609c-907e-4d86-a68b-7cecf77f209d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: c1cf6634-d667-459e-9b55-5f6c0209d4c7
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: bcd3e780-4cef-49b1-81fc-d8de6bdff888
+            userCondition: null
+            warning: null
+            width: 100
+        name: Sponsors
+        uid: 5e47d20f-4d97-4784-81a4-6e268889f645
+        userCondition: null
+handle: sponsers
+name: Sponsers
+sortOrder: 4

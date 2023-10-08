@@ -1,4 +1,4 @@
-dateModified: 1694626998
+dateModified: 1696777983
 email:
   fromEmail: jokido@jbjokido.be
   fromName: Jokido
@@ -18,29 +18,49 @@ graphql:
 meta:
   __names__:
     0f1b964c-d096-4fe5-a30f-8066829f0ebc: Datum # Datum
+    1ae4bc59-8c14-4599-9777-7680e0d69bb1: 'Social Media' # Social Media
     1b5af95e-cddc-4338-b9d1-ac36aa0ef2af: Link # Link
     1eea3746-ea4f-453f-8444-636d86fc8576: Common # Common
+    2ae06722-3b5e-4c18-baa3-bf6b93e9b03e: Medium # Medium
+    2d9a70d9-5173-4319-b15d-c64278a79d81: Naam # Naam
+    3b2c4982-3464-4778-b33b-655aded2e3b1: Datum # Datum
     4b33d5b8-01c9-46a1-972a-5148eb8f2b60: 'Link Text' # Link Text
+    7b8ff5cd-1815-4591-8670-14b0a70a1fa0: mediaLink # mediaLink
     7edce117-9cac-46c3-99ab-efa911426def: 'Navigation Links' # Navigation Links
-    7f6521f6-c89b-4510-afa9-adce0f67f81e: Home # Home
+    7f97bd46-9500-4a9c-beef-aaadceae1183: 'Sponsor Item' # Sponsor Item
+    7f6521f6-c89b-4510-afa9-adce0f67f81e: home # home
     8bae22ab-6594-4c50-8e65-dbb5b9658d75: Message # Message
     24de9d2e-7b72-4f55-b95c-b23a0695b3cc: 'Hero Image' # Hero Image
+    32fcff6f-2c95-4818-a5d7-6cba04116b0c: Posts # Posts
+    55f4e098-77ea-4732-bc0a-7e4f10b12ea7: berichten # berichten
+    91a50fcf-0b00-452b-8acc-b1e274c1c260: Sponsers # Sponsers
     0278f574-a1f8-4988-8357-176b874bb107: Messages # Messages
+    425e5b56-51dd-49a6-9614-a62e3cfb5559: 'Social Media' # Social Media
+    1003c202-1367-4f55-a6d0-c31f55b70568: website # website
     1317c683-2c55-4809-a2f3-c6684f731d45: Header # Header
-    5037c112-5fa8-448e-92ae-8646dea478cb: Messages # Messages
+    5710b610-a434-4838-995e-8f84242aceb2: Post # Post
     6594f204-05cd-41a0-a20a-26e1e2c46157: Jokido # Jokido
-    10996d6a-066c-4e8f-9151-07a4d512d294: Home # Home
+    10996d6a-066c-4e8f-9151-07a4d512d294: home # home
     19797ed3-eb56-48d3-b932-ccc68cc23cb3: Home # Home
     094060d6-9a31-40f7-a077-278d10193d0d: Homepage # Homepage
+    908427e9-dd81-4d23-a402-9385f4104d1f: Image # Image
     927209b4-6136-43b6-889f-388be3e85cbf: 'Hero Title' # Hero Title
+    10923836-7d90-49be-8b11-cd8bf744dacf: Icon # Icon
     afb9e0e1-fd4e-42d7-a862-2fa7db981b36: Image # Image
     b700f352-43cc-42e6-9d13-1f537ab05938: Inhoud # Inhoud
     b11466c4-2a33-4968-b170-635dcbe1c186: Titel # Titel
     bd1e2832-cdcd-433c-98d5-de4b648a9218: Uploads # Uploads
     c3c3e4b3-9456-41cd-8c6b-fd58555d4f1b: 'Link Destination' # Link Destination
+    d56fd0a9-c4c5-4bca-a2fd-4481bae96738: Sponsers # Sponsers
+    dcf83119-753c-48fb-9cde-bdc584866889: posts # posts
     deafcb2b-fad0-42a6-a5c2-0ff6db72ec84: Messages # Messages
+    dfaaed52-2070-43f6-a6b3-928339f2d7f2: Media # Media
+    e28af842-143c-419d-8a83-537a7ed84afa: 'Social media' # Social media
     e720509c-a7f5-4364-88f9-03cae61b365b: Jokido # Jokido
     f52cd7bc-8cbd-49a8-9d53-b731ad7fcb07: 'Hero Subtitle' # Hero Subtitle
+    f2618f55-b131-4ee3-9861-81895a656ed7: 'Sponsor Item' # Sponsor Item
+    f5231cfe-05b4-4956-8aff-3f33cd162d01: posts # posts
+    ff9dd005-cd88-4cf5-99b4-6055f1ad77a5: inhoud # inhoud
 plugins:
   redactor:
     edition: standard

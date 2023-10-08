@@ -59,8 +59,8 @@ fieldLayouts:
         userCondition: null
 handle: home
 hasTitleField: true
-name: Home
-section: 10996d6a-066c-4e8f-9151-07a4d512d294 # Home
+name: home
+section: 10996d6a-066c-4e8f-9151-07a4d512d294 # home
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site

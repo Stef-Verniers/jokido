@@ -1,7 +1,7 @@
 defaultPlacement: end
 enableVersioning: true
 handle: home
-name: Home
+name: home
 propagationMethod: all
 siteSettings:
   e720509c-a7f5-4364-88f9-03cae61b365b: # Jokido

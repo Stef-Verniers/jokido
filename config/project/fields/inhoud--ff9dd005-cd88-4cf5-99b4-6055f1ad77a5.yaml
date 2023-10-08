@@ -1,0 +1,27 @@
+columnSuffix: mfokvhhx
+contentColumnType: text
+fieldGroup: deafcb2b-fad0-42a6-a5c2-0ff6db72ec84 # Messages
+handle: inhoud
+instructions: null
+name: inhoud
+searchable: false
+settings:
+  availableTransforms: ''
+  availableVolumes: '*'
+  columnType: text
+  configSelectionMode: choose
+  defaultTransform: ''
+  manualConfig: ''
+  purifierConfig: null
+  purifyHtml: true
+  redactorConfig: null
+  removeEmptyTags: false
+  removeInlineStyles: false
+  removeNbsp: false
+  showHtmlButtonForNonAdmins: false
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  uiMode: enlarged
+translationKeyFormat: null
+translationMethod: none
+type: craft\redactor\Field

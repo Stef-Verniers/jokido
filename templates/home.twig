@@ -18,36 +18,64 @@
         <section class="messages">
             <h1>Recente berichten</h1>
             <div class='messages-list'>
-                {% for message in messages.messages.all() %}
-                {% set image = message.image.one() %}
+                {% set posts = craft.entries.section('posts').limit(3) %}
+                {% for post in posts %}
+                    {% set image = post.image.one() %}
                     <div class="message">
-                        <span class='date'>{{ message.datum|date('d-m-Y') }}</span>
-                        <h2>{{ message.titel }}</h2>
+                        <span class='date'>{{ post.datum|date('d-m-Y') }}</span>
+                        <h2>{{ post.title }}</h2>
                         {% if image %}
                             <img src='{{ image.url }}'>
                         {% endif %}
-                        <div class='text'>{{ message.inhoud }}</div>
+                        <div class='text'>{{ post.inhoud }}</div>
+                        <a class='read-more' href='{{ post.url }}'>Lees meer</a>
                     </div>
                 {% endfor %}
+            <a href="{{ siteUrl }}posts" class='button'>Toon alle berichten</a>
             </div>
         </section>
 
-        <section class="calendar">
-            <h1>Kalender</h1>
-        </section>
+        <div class='sidebar-container'>
+        <div class='sidebar'>
+            <section class="calendar">
+                <h1>Kalender</h1>
+            </section>
+
+            <section class="socials">
+                <h1>Socials</h1>
+                <div class='socials-list'>
+                    {% for medium in socialMedia.socialMedia.all() %}
+                    {% set image = medium.icon.one() %}
+                        <a href="{{ medium.mediaLink }}" target="_blank">
+                            <div class="medium">
+                                <div class="medium-image">
+                                    <img src="{{ image.url }}">
+                                </div>
+                                <h2>{{ medium.medium }}</h2>
+                            </div>
+                        </a>
+                    {% endfor %}
+                </div>
+            </section>
+        </div>
+        </div>
+
 
         <section class="sponsors">
             <h1>Bedankt sponsors!</h1>
-            <div class='sponsor-list'></div>
-        </section>
-
-        <section class="socials">
-            <h1>Socials</h1>
-            <div class='socials-list'></div>
+            <div class='sponsor-list'>
+                {% for sponsor in sponsers.sponsorItem.all() %}
+                    <a href="{{ sponsor.website }}" target="_blank">
+                        <div class="sponsor">
+                            <p>{{ sponsor.naam }}</p>
+                        </div>
+                    </a>
+                {% endfor %}
+            </div>
         </section>
 
     </div>
 
 
 
-{% endblock %}
+    {% endblock %}

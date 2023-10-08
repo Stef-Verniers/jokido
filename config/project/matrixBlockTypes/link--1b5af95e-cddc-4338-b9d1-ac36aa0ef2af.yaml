@@ -22,7 +22,7 @@ fieldLayouts:
             fieldUid: c3c3e4b3-9456-41cd-8c6b-fd58555d4f1b # Link Destination
             instructions: null
             label: null
-            required: true
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: 78524279-71c7-4b9f-9064-9328dab83199
@@ -80,7 +80,7 @@ fields:
             - class
             - craft\elements\conditions\entries\EntryCondition
       selectionLabel: 'Select an entry'
-      showSiteMenu: false
+      showSiteMenu: true
       sources: '*'
       targetSiteId: null
       validateRelatedElements: false

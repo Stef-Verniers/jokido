@@ -1,0 +1,73 @@
+field: f2618f55-b131-4ee3-9861-81895a656ed7 # Sponsor Item
+fieldLayouts:
+  d4b7a3b5-93a7-4838-ac9e-ae581e880fd9:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 2d9a70d9-5173-4319-b15d-c64278a79d81 # Naam
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a79c5205-e959-4a10-ae36-17b6f5aae7ad
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 1003c202-1367-4f55-a6d0-c31f55b70568 # website
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 15884801-940a-447c-b1d0-d5baa4bf4a58
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: aa0c961f-b05a-43a3-80e8-871457cc8731
+        userCondition: null
+fields:
+  2d9a70d9-5173-4319-b15d-c64278a79d81: # Naam
+    columnSuffix: gpwdajox
+    contentColumnType: text
+    fieldGroup: null
+    handle: naam
+    instructions: null
+    name: Naam
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  1003c202-1367-4f55-a6d0-c31f55b70568: # website
+    columnSuffix: rmoceenx
+    contentColumnType: string(255)
+    fieldGroup: null
+    handle: website
+    instructions: null
+    name: website
+    searchable: false
+    settings:
+      maxLength: 255
+      types:
+        - url
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Url
+handle: sponsorItem
+name: 'Sponsor Item'
+sortOrder: 1

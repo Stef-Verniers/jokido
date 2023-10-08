@@ -1,0 +1,17 @@
+columnSuffix: bnwggctd
+contentColumnType: datetime
+fieldGroup: deafcb2b-fad0-42a6-a5c2-0ff6db72ec84 # Messages
+handle: datum
+instructions: null
+name: Datum
+searchable: false
+settings:
+  max: null
+  min: null
+  minuteIncrement: 30
+  showDate: true
+  showTime: false
+  showTimeZone: false
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Date

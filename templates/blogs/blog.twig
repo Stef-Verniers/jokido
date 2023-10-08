@@ -1,0 +1,16 @@
+{% extends 'index' %}
+
+{% block content %}
+{% set image = entry.image.one() %}
+
+    <div class="message">
+        <p id='goBack'>Ga terug</p>
+        <span class='date'>{{ entry.datum|date('d-m-Y') }}</span>
+        <h2>{{ entry.title }}</h2>
+        {% if image %}
+            <img src='{{ image.url }}'>
+        {% endif %}
+        <div class='text-full'>{{ entry.inhoud }}</div>
+    </div>
+
+{% endblock %}

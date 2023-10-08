@@ -1,0 +1,16 @@
+columnSuffix: taoagyfu
+contentColumnType: string
+fieldGroup: 91a50fcf-0b00-452b-8acc-b1e274c1c260 # Sponsers
+handle: sponsorItem
+instructions: null
+name: 'Sponsor Item'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_sponsoritem}}'
+  maxBlocks: null
+  minBlocks: null
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

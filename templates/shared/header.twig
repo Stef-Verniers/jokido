@@ -8,7 +8,8 @@
     </header>
         <nav class='mobile-nav'>
             {% for link in header.navigationLinks.all() %}
-                <a href='#'>{{ link.linkText }}</a>
+                {% set destination = link.linkDestination.one %}
+                <a href={{ destination.url }}>{{ link.linkText }}</a>
             {% endfor %}
         </nav>
 </div>
@@ -26,7 +27,8 @@
     <header>
         <nav class='screen-nav'>
             {% for link in header.navigationLinks.all() %}
-                <a href='#'>{{ link.linkText }}</a>
+                {% set destination = link.linkDestination.one %}
+                <a href={{ destination.url }}>{{ link.linkText }}</a>
             {% endfor %}
         </nav>
     </header>
