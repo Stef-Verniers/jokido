@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 21175ef4-1ea2-4636-9228-cdeb82fc31b3 # Verhuur
+handle: tenten
+instructions: null
+name: tenten
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_tenten}}'
+  maxBlocks: null
+  minBlocks: null
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

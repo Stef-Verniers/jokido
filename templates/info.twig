@@ -1,0 +1,42 @@
+{% extends 'index' %}
+
+{% block content %}
+
+    <div class="info">
+
+        <h1>Info</h1>
+
+        <div class='info-content'>
+            <div class="main">
+                {% for item in entry.info.all() %}
+                <div class="infoItem"> 
+                    <h2>{{ item.sectionItem }}</h2>
+                    <p>{{ item.itemText }}</p>
+                </div>
+                {% endfor %}
+            </div>    
+        </div>
+
+            
+        <div class='info-content-sidebar-container'>
+            <div class='info-content-sidebar'>
+                <h1 id="info-sidebar-title">Hoofdleiding</h1>
+                <div class="main">
+                    {% for leider in entry.hoofdleiding.all() %}
+                    {% set foto = leider.foto.one() %}
+                    <div class="person"> 
+                        <h2>{{ leider.naam }}</h2>
+                        <p>{{ leider.nummer }}</p>
+                        <p>{{ leider.email }}</p>
+                        <div class="leider-foto">
+                            <img src='{{ foto.url }}' />
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>    
+            </div>
+        </div>
+
+    </div>
+
+{% endblock %}

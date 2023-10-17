@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: groepen
+name: groepen
+propagationMethod: all
+siteSettings:
+  e720509c-a7f5-4364-88f9-03cae61b365b: # Jokido
+    enabledByDefault: true
+    hasUrls: true
+    template: groups.twig
+    uriFormat: groepen
+type: single

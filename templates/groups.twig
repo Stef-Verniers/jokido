@@ -1,0 +1,28 @@
+{% extends 'index' %}
+
+{% block content %}
+
+        <div class='group-content'>
+
+        <h1>Groepen</h1>
+
+            <section class="posts">
+                {% for groep in entry.groepen.all() %}
+                        {% set image = groep.leidingsfoto.one() %}
+                        <div class="groep-item">
+                            <div class="groep">
+                                <h2>{{ groep.groepsnaam }}</h2>
+                                <p class="age">{{ groep.leeftijd }}</p>
+                                {% if image %}
+                                    <img src='{{ image.url }}'>
+                                {% endif %}
+                                <p class="leiding">Leiding: {{ groep.leiding }}</p>
+                                <p class="strong">Verantwoordelijke: {{ groep.verantwoordelijke }}</p>
+                            </div>
+                        </div>
+                {% endfor %}
+            </section>
+
+        </div>
+
+{% endblock %}

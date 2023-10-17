@@ -1,0 +1,86 @@
+field: 1b0e561d-1483-4130-8873-1bda624fdc60 # Info
+fieldLayouts:
+  326ea45d-0bc0-4ab0-8474-a73cd8b59bf5:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 0f4f6686-b28c-4978-902b-2c92d09e88be # section Item
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 94be8701-e294-4dc1-a70f-c90d93fc4781
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 3fc5ac99-05a7-490b-8d69-9d6b636aa168 # item text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: cb3f8e38-718c-4cbe-ad03-f881bed3f653
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: c58ef726-1936-4ee3-91ea-2edbdfebad98
+        userCondition: null
+fields:
+  0f4f6686-b28c-4978-902b-2c92d09e88be: # section Item
+    columnSuffix: epookmmr
+    contentColumnType: text
+    fieldGroup: null
+    handle: sectionItem
+    instructions: null
+    name: 'section Item'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  3fc5ac99-05a7-490b-8d69-9d6b636aa168: # item text
+    columnSuffix: tmmxfzxg
+    contentColumnType: text
+    fieldGroup: null
+    handle: itemText
+    instructions: null
+    name: 'item text'
+    searchable: false
+    settings:
+      availableTransforms: ''
+      availableVolumes: '*'
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: null
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+handle: sectionMatrix
+name: Section
+sortOrder: 1

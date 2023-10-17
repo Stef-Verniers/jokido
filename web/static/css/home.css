@@ -175,6 +175,9 @@ section > div {
     background-color: white;
 }
 
+.sponsors, .socials, .calendar, .messages {
+    box-shadow: rgb(172, 172, 172) 0px 0px 35px;
+}
 
 
 
@@ -217,8 +220,8 @@ section > div {
         grid-template-columns: 70% 30%;
         grid-template-rows: auto auto;
         grid-gap: 3vw;
-        margin-top: 10vh;
-        margin-bottom: 10vh;
+        margin: 10vh auto;
+        padding-right: 3vw;
         position: relative;
     }
 

@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 19003ec9-d9c8-4e21-9e6a-8f69db1d4f70 # Bestuursleden
+handle: hoofdleiding
+instructions: null
+name: hoofdleiding
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_hoofdleiding}}'
+  maxBlocks: null
+  minBlocks: null
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

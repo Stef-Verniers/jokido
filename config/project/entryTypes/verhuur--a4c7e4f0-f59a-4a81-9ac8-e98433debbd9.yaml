@@ -1,0 +1,70 @@
+fieldLayouts:
+  9b42b6a2-2c6b-43c8-ac4e-af55d7f90071:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 43bb22cb-a0a2-48ac-8b5f-f1cf96253ee0
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 0d73b8b9-19bc-4fdc-b082-5fcf26ec7ce8 # verhuur tent
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7795418a-00e6-48ae-b55e-403593e08e9a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 204cb8e9-b2ca-441a-aad9-9b49ed5ff27e # tenten
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7b66d809-0118-43fa-8ad3-6cbf29efaf12
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 4f7d5af8-9533-41ea-9b82-64dfba8b6af3
+        userCondition: null
+handle: verhuur
+hasTitleField: false
+name: Verhuur
+section: 0c626acb-d6c0-4810-8117-0351730722a1 # Verhuur
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

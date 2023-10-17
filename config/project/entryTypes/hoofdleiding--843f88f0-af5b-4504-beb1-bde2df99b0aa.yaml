@@ -1,0 +1,94 @@
+fieldLayouts:
+  7ab15bca-dddd-4858-82e0-15a5efd2e3d7:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 5a20ff48-ed74-4d42-8945-be18626d7a1b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 3b454631-28c8-4f35-b134-e6ae0db71485 # hoofdleiding
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 97742b6c-1b05-46b2-ab12-e1e108d89954
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 3f4f9494-c188-4a16-a1d6-0d33564e3a6a # beschrijving hoofdleiding
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ddfc6b0a-6a05-496c-8fd9-6d24385e155f
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: ef8f14e3-3f96-4dd0-8f89-6fcd65df2937 # VB
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1206a752-e0d0-42cb-bf5a-1e2b2be355b2
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 41408441-803a-40bb-b927-e29ac98dfcfe # beschrijving volwassen begeleiders
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: be2d483f-6e19-4652-8d10-11edcf2a2519
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 518ea844-3357-4298-9458-dab4251d1e03
+        userCondition: null
+handle: hoofdleiding
+hasTitleField: false
+name: Hoofdleiding
+section: 49549b9b-5c14-437a-9cf8-07f42f22e182 # Hoofdleiding
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

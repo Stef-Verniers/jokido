@@ -1,0 +1,107 @@
+field: 204cb8e9-b2ca-441a-aad9-9b49ed5ff27e # tenten
+fieldLayouts:
+  21e93a8e-d8ec-4bda-9995-2f14dde1a6d0:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 25fa274d-6aea-4a7d-b8ac-73c3c085583f # foto
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e6741d69-0c96-4618-a7ae-9edfd4163cf1
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 9d2a8e53-b5a8-42e4-bfa1-160456f1f13e # description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6a7003eb-c744-452d-8fc9-2b8a315322ee
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: e2877dac-6e14-4cb2-a862-7ae1fa2c4d09
+        userCondition: null
+fields:
+  9d2a8e53-b5a8-42e4-bfa1-160456f1f13e: # description
+    columnSuffix: clwnfmki
+    contentColumnType: text
+    fieldGroup: null
+    handle: description
+    instructions: null
+    name: description
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  25fa274d-6aea-4a7d-b8ac-73c3c085583f: # foto
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: foto
+    instructions: null
+    name: foto
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds:
+        - image
+      branchLimit: null
+      defaultUploadLocationSource: 'volume:bd1e2832-cdcd-433c-98d5-de4b648a9218' # Uploads
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maintainHierarchy: false
+      maxRelations: 1
+      minRelations: null
+      previewMode: full
+      restrictFiles: true
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:bd1e2832-cdcd-433c-98d5-de4b648a9218' # Uploads
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: null
+      showSiteMenu: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: large
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+handle: tent
+name: tent
+sortOrder: 1

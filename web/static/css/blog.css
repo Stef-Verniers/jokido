@@ -1,4 +1,60 @@
+#goBack {
+    cursor: pointer;
+    width: 90vw;
+    padding: 9px;
+    margin-top: 3vh;
+    margin-inline: auto;
+    text-decoration: underline;
+}
+
+.message-frame {
+    margin: 3vh auto;
+    width: 90vw;
+    background-color: white;
+    box-shadow: rgb(172, 172, 172) 0px 0px 35px;
+}
+
+.message {
+    width: 90%;
+    border: none;
+}
+
+.message > img {
+    width: 100%;
+}
+
 .text-full {
     font-size: 16px;
     line-height: calc(16px*1.5);
+}
+
+@media screen and (min-width: 762px) {
+#goBack {
+    cursor: pointer;
+    width: 50vw;
+    padding: 9px;
+    margin-top: 3vh;
+    margin-inline: auto;
+    text-decoration: underline;
+}
+
+.message-frame {
+    margin: 3vh auto;
+    width: 50vw;
+    background-color: white;
+}
+
+.message {
+    width: 90%;
+    border: none;
+}
+
+.message > img {
+    width: 100%;
+}
+
+.text-full {
+    font-size: 16px;
+    line-height: calc(16px*1.5);
+}
 }

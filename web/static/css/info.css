@@ -1,0 +1,160 @@
+.info {
+    width: 95vw;
+    margin: 3vh auto;
+}
+
+.info > h1 {
+    width: 95vw;
+    margin: 3vh auto;
+    font-size: 26px;
+    font-weight: bold;
+    padding-inline-start: calc(5vw + 5px);
+}
+
+.info-content-sidebar > h1 {
+    font-size: 21px;
+    font-weight: bold;
+    margin-bottom: 0;
+    width: 95%;
+    padding-inline-start: 5%;
+    padding-top: 4vh;
+}
+
+.info-content, .info-content-sidebar {
+    width: 95vw;
+    margin: auto;
+    background-color: white;
+    box-shadow: rgb(172, 172, 172) 0px 0px 35px;
+}
+
+.main {
+    width: 95%;
+    margin: 3vh auto;
+    margin-top: 0;
+    padding: 1vh 0;
+}
+
+.infoItem {
+    margin: 3vh auto;
+}
+
+.infoItem:nth-child(1) {
+    margin-top: 2vh;
+}
+
+.infoItem > h2 {
+    font-weight: bold;
+    margin-bottom: 1vh;
+    font-size: 21px;
+}
+
+.infoItem > p {
+    line-height: calc(18px * 1.4);
+}
+
+.infoItem > p > a {
+    color: royalblue
+}
+
+.infoItem > ul > li {
+    margin: 1vh auto;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+.person {
+    width: 100%;
+    margin: 2vh auto;
+}
+
+.person:nth-child(1) {
+    margin-bottom: 5vh;
+}
+
+.person > * {
+    margin-bottom: 1vh;
+}
+
+.person > h2 {
+    font-weight: bold;
+}
+
+.leider-foto {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.leider-foto > img {
+    width: 100%;
+}
+
+@media screen and (min-width: 762px) {
+
+    .info {
+        width: 73vw;
+        display: grid;
+        grid-template-columns: 75% 25%;
+        grid-template-rows: auto auto;
+        grid-gap: 3vw;
+        margin: 5vh auto 10vh auto;
+        position: relative;
+    }
+
+    .info > h1 {
+        width: calc(100% - 3vw);
+        grid-column: 1/3;
+        grid-row: 1;
+        padding-inline-start: 3vw;
+        margin: 0;
+    }
+
+    .info-content > .main {
+        margin-top: 1vh;
+    }
+
+    .info-content, .info-content-sidebar {
+        width: 100%;
+        margin: auto;
+        background-color: white;
+    }
+
+    .info-content { 
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .info-content-sidebar-container { 
+        width: 100%;
+        position: relative;
+        grid-column: 2;
+        grid-row: 2;
+        margin: 0;
+    }
+
+    .info-content-sidebar {
+        max-height: 100%;
+        position: sticky;
+        top: 4vh;
+    }
+
+    .info-content-sidebar > h1 {
+        font-size: 21px;
+        font-weight: bold;
+        margin-bottom: 0;
+        width: 95%;
+        padding-inline-start: 5%;
+        padding-top: 4vh;
+    }
+
+    .info-content-sidebar > .main {
+        margin-top: 0;
+        margin-bottom: 0;
+        width: 90%;
+    }
+
+    .person {
+        width: 85%;
+    }
+
+}

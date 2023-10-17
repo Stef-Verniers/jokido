@@ -1,0 +1,143 @@
+.leiding-content {
+    width: 95vw;
+    margin: auto;
+}
+
+.leiding-content > h1 {
+    margin: 3vh auto;
+    font-size: 26px;
+    font-weight: bold;
+    padding-inline-start: 15px;
+}
+
+.hoofdleiding, .vb {
+    background-color: white;
+    margin: 2vh auto;
+    padding: 2vh 1vw;
+    width: 95%;
+    margin-bottom: 3vh;
+    box-shadow: rgb(172, 172, 172) 0px 0px 35px;
+}
+
+.hoofdleiding > h2 {
+    margin-left: 3%;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: calc(22px*1.3);
+    margin-bottom: 2vh;
+}
+
+.hoofdleiding > p {
+    margin-left: 3%;
+    line-height: calc(16px*1.3);
+    margin-bottom: 22px;
+}
+
+.description > p {
+    line-height: calc(16px*1.3);
+    margin-bottom: 1vh;
+}
+
+.vb > h2 {
+    margin-left: 3%;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: calc(22px*1.3);
+    margin-bottom: 2vh;
+}
+
+.vb > p {
+    margin-left: 3%;
+    line-height: calc(16px*1.3);
+    margin-bottom: 22px;
+}
+
+.leiders {
+    width: 95%;
+    margin: auto;
+}
+
+@media screen and (min-width: 762px) {
+
+    .leiding-content {
+        width: 73vw;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+        column-gap: 3vw;
+        margin-bottom: 6vh;
+    }
+
+    .leiding-content > h1 {
+        width: calc(100%);
+        grid-column: 1;
+        grid-row: 1;
+        margin: 5vh auto;
+        padding: 0;
+        padding-inline-start: 1vw;
+    }
+
+    .hoofdleiding {
+        margin-top: 0;
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .hoofdleiding > h2 {
+        margin: 0;
+        margin-bottom: 2vh;
+    }
+
+    .hoofdleiding > p {
+        margin: 0;
+        margin-bottom: 1vh;
+    }
+
+    .leiders {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 4vh;
+        height: fit-content;
+    }
+
+    .leiders > .person {
+        max-width: 45%;
+        margin: 0;
+        height: fit-content;
+    }
+
+    .vb {
+        grid-column: 2;
+        grid-row: 2;
+        margin-top: 0;
+    }
+
+    .vb > h2 {
+        margin: 0;
+        margin-bottom: 2vh;
+    }
+
+    .vb > p {
+        margin: 0;
+        margin-bottom: 1vh;
+    }
+
+    .hoofdleiding > .description, .vb > .description {
+        min-height: 30vh;
+        max-height: 35vh;
+    }
+
+    .leider-foto-vb {
+        width: 250px;
+        height: 250px;
+        object-fit: contain;
+    }
+    
+    .leider-foto-vb > img {
+        width: 100%;
+    }
+
+}

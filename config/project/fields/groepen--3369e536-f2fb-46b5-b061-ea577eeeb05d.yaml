@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 4e3db4c8-d607-43e6-802b-7bb62014ceaf # Groepen
+handle: groepen
+instructions: null
+name: Groepen
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_groepen}}'
+  maxBlocks: null
+  minBlocks: null
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

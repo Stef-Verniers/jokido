@@ -1,0 +1,26 @@
+{% extends 'index' %}
+
+{% block content %}
+
+        <div class='verhuur-content'>
+            <h1>{{ verhuur.title }}</h1>
+            <div class="verhuur">
+                <div class="description">
+                    {{ entry.verhuurTent }}
+                </div>
+                <div class="tenten">
+                {% for tent in entry.tenten.all() %}
+                    {% set foto = tent.foto.one() %}
+                    <div class="person"> 
+                        <h2>{{ tent.naam }}</h2>
+                        <div class="tent-foto">
+                            <img src='{{ foto.url }}' />
+                        </div>
+                        <p>{{ tent.description }}</p>
+                    </div>
+                {% endfor %}
+                </div>
+            </div>
+        </div>
+
+{% endblock %}

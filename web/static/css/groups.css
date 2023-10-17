@@ -1,26 +1,27 @@
-.posts-content {
+.group-content {
     width: 95vw;
     margin: auto;
 }
 
-.posts-content > h1 {
+.group-content > h1 {
     margin: 3vh auto;
     font-size: 26px;
     font-weight: bold;
     padding-inline-start: 15px;
 }
 
-.posts {
+.group {
     width: 100%;
 }
 
-.post-item {
+.groep-item {
     background-color: white;
     width: 100%;
     margin-bottom: 3vh;
+    box-shadow: rgb(172, 172, 172) 0px 0px 35px;
 }
 
-.post {
+.groep {
     width: 90%;
     margin-inline: auto;
     padding-top: 3vh;
@@ -28,34 +29,37 @@
     height: auto;
 }
 
-.post > * {
+.groep > * {
     width: 90%;
     margin-bottom: 2vh;
 }
 
-.post > span {
+.groep > span {
     font-size: 13px;
     letter-spacing: 0.2ch;
 }
 
-.post > h2 {
+.groep > h2 {
     margin-top: 1vh;
     font-weight: 800;
     font-size: 22px;
     line-height: calc(22px*1.3);
 }
 
-.post > img {
+.groep > img {
     width: 100%;
-    margin: auto;
-    margin-bottom: 1vh;
+    margin: 2vh auto;
+}
+
+.groep > .leiding {
+    margin-bottom: 2vh;
 }
 
 
 
 @media screen and (min-width: 762px) {
 
-    .posts-content {
+    .group-content {
         width: 73vw;
         /* display: grid;
         grid-template-columns: 70% 30%;
@@ -66,13 +70,13 @@
         position: relative; */
     }
 
-    .posts-content > h1 {
+    .group-content > h1 {
         margin: 5vh auto;
         font-size: 26px;
         font-weight: bold;
     }
 
-    .posts {
+    .group {
         width: 100%;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -81,31 +85,25 @@
         row-gap: 3vh;
     }
 
-    .post-item {
+    .groep-item {
         width: 100%;
         box-shadow: rgb(172, 172, 172) 0px 0px 35px;
         position: relative;
-
     }
 
-    .post {
+    .groep {
         width: 90%;
     }
 
 
-    .post > img {
+    .groep > img {
         object-fit: cover;
         width: 100%;
-        height: 250px;
+        height: 350px;
     }
 
-    .post > .text {
+    .groep > .text {
         height: 15vh;
-    }
-
-    .post > .read-more {
-        position: absolute;
-        bottom: 0;
     }
 
 }

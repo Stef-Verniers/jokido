@@ -1,0 +1,27 @@
+columnSuffix: ixsfiexx
+contentColumnType: text
+fieldGroup: 19003ec9-d9c8-4e21-9e6a-8f69db1d4f70 # Bestuursleden
+handle: beschrijvingVolwassen
+instructions: null
+name: 'beschrijving volwassen begeleiders'
+searchable: false
+settings:
+  availableTransforms: ''
+  availableVolumes: '*'
+  columnType: text
+  configSelectionMode: choose
+  defaultTransform: ''
+  manualConfig: ''
+  purifierConfig: null
+  purifyHtml: true
+  redactorConfig: null
+  removeEmptyTags: false
+  removeInlineStyles: false
+  removeNbsp: false
+  showHtmlButtonForNonAdmins: false
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  uiMode: enlarged
+translationKeyFormat: null
+translationMethod: none
+type: craft\redactor\Field
