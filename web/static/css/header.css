@@ -33,14 +33,20 @@ header {
     height: auto;
 }
 
-.mobile-nav > a {
+.mobile-nav > li > a {
     height: 7vh;
-    background-color: rgb(226, 226, 226);
+    background-color: rgb(245, 245, 245);
     border-bottom: 1px solid darkgray;
     display: flex;
     align-items: center;
     width: calc(100% - 3vw);
     padding-left: 3vw;
+    color: black
+}
+
+.mobile-nav > .active > a {
+    color: var(--yellow);
+    background-color: rgb(85, 85, 85);
 }
 
 .mobile-nav > a:nth-last-child(1) {

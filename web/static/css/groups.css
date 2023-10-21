@@ -34,9 +34,15 @@
     margin-bottom: 2vh;
 }
 
+.groep > p {
+    line-height: calc(16px * 1.5);
+}
+
 .groep > span {
     font-size: 13px;
     letter-spacing: 0.2ch;
+    line-height: calc(16px * 1.5);
+
 }
 
 .groep > h2 {

@@ -26,6 +26,7 @@
     height: auto;
     width: 90%;
     margin: 2vh auto;
+    line-height: calc(16px * 1.5);
 }
 
 .jokidootje > ul {

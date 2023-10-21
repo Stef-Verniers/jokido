@@ -4,42 +4,46 @@
 
         <div class='leiding-content'>
             <h1>Hoofdleiding & volwassen begeleigers</h1>
-            <div class="hoofdleiding">
-                <h2>Hoofdleiding</h2>
-                <div class="description">
-                    {{ entry.beschrijvingHoofdleiding }}
-                </div>
-                <div class="leiders">
-                {% for leider in entry.hoofdleiding.all() %}
-                    {% set foto = leider.foto.one() %}
-                    <div class="person"> 
-                        <h2>{{ leider.naam }}</h2>
-                        <div class="leider-foto-vb">
-                            <img src='{{ foto.url }}' />
+                <div class="leiding-container">
+                    <div class="hoofdleiding">
+                        <h2>Hoofdleiding</h2>
+                        <div class="description">
+                            {{ entry.beschrijvingHoofdleiding }}
                         </div>
-                        <p>{{ leider.nummer }}</p>
-                        <p>{{ leider.email }}</p>
+                        <div class="leiders">
+                        {% for leider in entry.hoofdleiding.all() %}
+                            {% set foto = leider.foto.one() %}
+                            <div class="person"> 
+                                <h2>{{ leider.naam }}</h2>
+                                <div class="leider-foto-vb">
+                                    <img src='{{ foto.url }}' />
+                                </div>
+                                <p>{{ leider.nummer }}</p>
+                                <p>{{ leider.email }}</p>
+                            </div>
+                        {% endfor %}
                     </div>
-                {% endfor %}
                 </div>
             </div>
 
-            <div class="vb">
-                <h2>Volwassen begeleiders</h2>
-                <div class="description">
-                    {{ entry.beschrijvingVolwassen }}
-                </div>
-                <div class="leiders">
-                {% for leider in entry.vb.all() %}
-                    {% set foto = leider.foto.one() %}
-                    <div class="person"> 
-                        <h2>{{ leider.naam }}</h2>
-                        <div class="leider-foto-vb">
-                            <img src='{{ foto.url }}' />
-                        </div>
-                        <p>{{ leider.telefoon }}</p>
+            <div class="vb-container">
+                <div class="vb">
+                    <h2>Volwassen begeleiders</h2>
+                    <div class="description">
+                        {{ entry.beschrijvingVolwassen }}
                     </div>
-                {% endfor %}
+                    <div class="leiders">
+                    {% for leider in entry.vb.all() %}
+                        {% set foto = leider.foto.one() %}
+                        <div class="person"> 
+                            <h2>{{ leider.naam }}</h2>
+                            <div class="leider-foto-vb">
+                                <img src='{{ foto.url }}' />
+                            </div>
+                            <p>{{ leider.telefoon }}</p>
+                        </div>
+                    {% endfor %}
+                    </div>
                 </div>
             </div>
         </div>

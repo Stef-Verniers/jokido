@@ -49,7 +49,7 @@
 }
 
 .infoItem > p {
-    line-height: calc(18px * 1.4);
+    line-height: calc(16px * 1.5);
 }
 
 .infoItem > p > a {

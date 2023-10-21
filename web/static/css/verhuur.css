@@ -25,6 +25,7 @@
     width: 90%;
     margin: 2vh auto;
     padding: 3vh 0;
+    line-height: calc(16px * 1.5);
 }
 
 .description > h2 {
