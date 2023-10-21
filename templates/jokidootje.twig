@@ -1,0 +1,23 @@
+{% extends 'index' %}
+
+{% block content %}
+
+    {% set volume = craft.app.volumes.getVolumeByHandle('jokidootje') %}
+
+    {% set assetsQuery = craft.assets.volumeId(volume.id) %}
+    {% set assets = assetsQuery.all() %}
+
+        <div class='posts-content'>
+            <h1>{{ jokidootje.title }}</h1>
+
+            <div class='jokidootje'>
+                <p class='description'>{{ jokidootje.description }}</p>
+                <ul>
+                    {% for asset in assets %}
+                        <li><a href="{{ asset.url }}" download="{{ asset.filename }}">{{ asset.title }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+
+{% endblock %}

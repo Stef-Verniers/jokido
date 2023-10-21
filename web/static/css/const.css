@@ -23,10 +23,23 @@ position: relative;
 }
 
 a {
-    color: black;
+    color: royalblue;
     text-decoration: none;
 }
 
 .strong, strong {
     font-weight: bold;
+}
+
+nav > .active > a {
+    font-weight: bold;
+    color: var(--yellow)
+}
+
+nav > li {
+    list-style-type: none;
+}
+
+nav > li > a {
+    color: white
 }

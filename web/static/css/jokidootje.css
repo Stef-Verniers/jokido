@@ -1,0 +1,60 @@
+.jokidootje-content {
+    width: 95vw;
+    margin: auto;
+    position: relative;
+}
+
+.jokidootje-content > h1 {
+    margin: 5vh auto;
+    font-size: 26px;
+    font-weight: bold;
+    padding-inline-start: 15px;
+}
+
+.jokidootje {
+    background-color: white;
+    width: 100%;
+    position: relative;
+    height: auto;
+    box-shadow: rgb(172, 172, 172) 0px 0px 35px;
+    margin-bottom: 3vh;
+    min-height: calc(100vh - 30vh);
+    padding: 3vh 0;
+}
+
+.jokidootje > p {
+    height: auto;
+    width: 90%;
+    margin: 2vh auto;
+}
+
+.jokidootje > ul {
+    height: auto;
+    width: 90%;
+    margin: 2vh auto;
+    padding: 3vh 0;
+}
+
+.jokidootje > ul > li {
+    height: 40px;
+    font-weight: bold;
+    width: calc(100% - 20px);
+    display: flex;
+    align-items: center;
+    padding-inline-start: 20px;
+}
+
+.jokidootje > ul > li:nth-child(even) {
+    background-color: rgb(238, 238, 238);
+}
+
+.description > h2 {
+    font-weight: 800;
+    font-size: 22px;
+    line-height: calc(22px*1.3);
+    margin-bottom: 2vh;
+}
+
+.description > h5 {
+    font-style: italic;
+}

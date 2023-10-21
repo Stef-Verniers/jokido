@@ -1,0 +1,19 @@
+columnSuffix: hwpepxhq
+contentColumnType: text
+fieldGroup: b79c7d33-0df0-4157-b1ec-ccb5d716c4ad # Inschrijvingen
+handle: ondertitel
+instructions: null
+name: Ondertitel
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

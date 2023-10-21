@@ -1,9 +1,16 @@
-dateModified: 1697446765
+dateModified: 1697909551
 email:
   fromEmail: jokido@jbjokido.be
   fromName: Jokido
   transportType: craft\mail\transportadapters\Sendmail
 fs:
+  pdf:
+    hasUrls: false
+    name: pdf
+    settings:
+      path: $ASSETS_BASE_PATH
+    type: craft\fs\Local
+    url: null
   uploads:
     hasUrls: true
     name: Uploads
@@ -21,6 +28,7 @@ meta:
     0d73b8b9-19bc-4fdc-b082-5fcf26ec7ce8: 'verhuur tent' # verhuur tent
     0f1b964c-d096-4fe5-a30f-8066829f0ebc: Datum # Datum
     0f4f6686-b28c-4978-902b-2c92d09e88be: 'section Item' # section Item
+    0f842e21-7076-4228-b303-e0f2d1eb35a0: '''T Jokidootje' # 'T Jokidootje
     1ae4bc59-8c14-4599-9777-7680e0d69bb1: 'Social Media' # Social Media
     1b0e561d-1483-4130-8873-1bda624fdc60: Info # Info
     1b5af95e-cddc-4338-b9d1-ac36aa0ef2af: Link # Link
@@ -35,6 +43,7 @@ meta:
     04d5fc6a-f816-4357-88b6-a423622cc4ef: Naam # Naam
     4e3db4c8-d607-43e6-802b-7bb62014ceaf: Groepen # Groepen
     4fa75f6b-f4a0-4158-b2a8-97a13e854179: Verantwoordelijke # Verantwoordelijke
+    7ae8d81f-5774-4c80-82d8-693e25500ab1: Description # Description
     7b8ff5cd-1815-4591-8670-14b0a70a1fa0: mediaLink # mediaLink
     7e96eda7-74e8-4408-90db-1e69cfaadcf8: hoofdleiding # hoofdleiding
     7edce117-9cac-46c3-99ab-efa911426def: 'Navigation Links' # Navigation Links
@@ -61,17 +70,21 @@ meta:
     2887c10c-6e83-4955-bd32-91a5969347f3: tent # tent
     3369e536-f2fb-46b5-b061-ea577eeeb05d: Groepen # Groepen
     5710b610-a434-4838-995e-8f84242aceb2: Post # Post
+    5957a6b8-a6ca-4824-8b9b-fa8ac0d12226: Jokidootje # Jokidootje
     6594f204-05cd-41a0-a20a-26e1e2c46157: Jokido # Jokido
     06832a16-38b5-460a-98dc-5e5a405b027c: Section # Section
+    7872ed61-637e-46f8-b6a9-c809c61a72bb: Inschrijven # Inschrijven
     10996d6a-066c-4e8f-9151-07a4d512d294: home # home
     19003ec9-d9c8-4e21-9e6a-8f69db1d4f70: Bestuursleden # Bestuursleden
     19797ed3-eb56-48d3-b932-ccc68cc23cb3: Home # Home
     21175ef4-1ea2-4636-9228-cdeb82fc31b3: Verhuur # Verhuur
     49549b9b-5c14-437a-9cf8-07f42f22e182: Hoofdleiding # Hoofdleiding
     094060d6-9a31-40f7-a077-278d10193d0d: Homepage # Homepage
+    791977b4-e3d8-4784-8fdf-ffbe718432d1: Description # Description
     908427e9-dd81-4d23-a402-9385f4104d1f: Image # Image
     927209b4-6136-43b6-889f-388be3e85cbf: 'Hero Title' # Hero Title
     2299081b-c9e4-4d4d-959b-e082e1023b02: email # email
+    03733005-da15-40e5-9574-dbd89b5a7a54: Jokidootje # Jokidootje
     10923836-7d90-49be-8b11-cd8bf744dacf: Icon # Icon
     39465562-fc39-4473-a1f1-6d7a6af340e4: foto # foto
     41408441-803a-40bb-b927-e29ac98dfcfe: 'beschrijving volwassen begeleiders' # beschrijving volwassen begeleiders
@@ -81,16 +94,20 @@ meta:
     afb9e0e1-fd4e-42d7-a862-2fa7db981b36: Image # Image
     b7e7db9c-8017-4b46-85f0-013c325c7132: begeleider # begeleider
     b55d7b4b-13f8-4068-9f3d-b922699f6d8a: Info # Info
+    b79c7d33-0df0-4157-b1ec-ccb5d716c4ad: Inschrijvingen # Inschrijvingen
     b700f352-43cc-42e6-9d13-1f537ab05938: Inhoud # Inhoud
     b11466c4-2a33-4968-b170-635dcbe1c186: Titel # Titel
+    b21060b1-54b0-4757-a2c0-172f22fb8649: '''T Jokidootje' # 'T Jokidootje
     bd1e2832-cdcd-433c-98d5-de4b648a9218: Uploads # Uploads
     c0b8c2a6-4263-4aba-b66f-71388eaae9a5: Leiding # Leiding
     c1ae60f4-7ea2-4c9b-9291-3d4bad942f10: Telefoon # Telefoon
     c3c3e4b3-9456-41cd-8c6b-fd58555d4f1b: 'Link Destination' # Link Destination
+    c9c83531-0f16-4ecb-a9c2-92849d0677f2: Inschrijven # Inschrijven
     c81e8ed9-879e-4966-824f-10e4b3a8327c: Leidingsfoto # Leidingsfoto
     d56fd0a9-c4c5-4bca-a2fd-4481bae96738: Sponsers # Sponsers
     dcf83119-753c-48fb-9cde-bdc584866889: posts # posts
     deafcb2b-fad0-42a6-a5c2-0ff6db72ec84: Messages # Messages
+    df90c364-8a40-4bf0-b7a2-5f535e4c6861: Ondertitel # Ondertitel
     df954f9d-81aa-486d-afe8-01f3e13e1be6: Naam # Naam
     dfaaed52-2070-43f6-a6b3-928339f2d7f2: Media # Media
     e8e95740-0bae-4d94-81f4-a99d3df35832: groepen # groepen

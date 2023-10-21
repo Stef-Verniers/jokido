@@ -1,0 +1,70 @@
+fieldLayouts:
+  513aebee-da6e-4fae-b3dc-54fa0d6088ea:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 4b50794e-915c-40e9-9a52-587b846144af
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: df90c364-8a40-4bf0-b7a2-5f535e4c6861 # Ondertitel
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f9f05301-e93e-4e7e-ac5d-fe70b04d84f6
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 7ae8d81f-5774-4c80-82d8-693e25500ab1 # Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 67dbbff4-fa54-4f63-942f-71fc005c658f
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 2bd5faca-7f25-4f77-97c4-58f85617f7f8
+        userCondition: null
+handle: inschrijvingen
+hasTitleField: false
+name: Inschrijven
+section: c9c83531-0f16-4ecb-a9c2-92849d0677f2 # Inschrijven
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

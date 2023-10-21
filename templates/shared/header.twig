@@ -1,3 +1,5 @@
+{% set currentUrl = craft.app.request.absoluteUrl %}
+
 <div class='mobile-header'>
     <header>
         <div class='mobile-icon-nav' id='mobile-icon'>
@@ -9,7 +11,7 @@
         <nav class='mobile-nav'>
             {% for link in header.navigationLinks.all() %}
                 {% set destination = link.linkDestination.one %}
-                <a href={{ destination.url }}>{{ link.linkText }}</a>
+                <li{% if destination.url == currentUrl %} class="active"{% endif %}><a href={{ destination.url }}>{{ link.linkText }}</a></li>
             {% endfor %}
         </nav>
 </div>
@@ -28,7 +30,7 @@
         <nav class='screen-nav'>
             {% for link in header.navigationLinks.all() %}
                 {% set destination = link.linkDestination.one %}
-                <a href={{ destination.url }}>{{ link.linkText }}</a>
+                <li{% if destination.url == currentUrl %} class="active"{% endif %}><a href={{ destination.url }}>{{ link.linkText }}</a></li>
             {% endfor %}
         </nav>
     </header>

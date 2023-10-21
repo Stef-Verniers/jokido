@@ -1,0 +1,58 @@
+fieldLayouts:
+  93ad68dc-b394-47c0-9fa5-95414a12b09c:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: f296ffa8-b5af-4710-af63-82bc9bfa95f2
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 791977b4-e3d8-4784-8fdf-ffbe718432d1 # Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fd00b197-af91-4236-834e-3f88a6555bde
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 2172cc83-e845-4fe3-be1f-99404b5c9a7b
+        userCondition: null
+handle: jokidootje
+hasTitleField: false
+name: '''T Jokidootje'
+section: 0f842e21-7076-4228-b303-e0f2d1eb35a0 # 'T Jokidootje
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

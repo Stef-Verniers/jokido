@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: inschrijvingen
+name: Inschrijven
+propagationMethod: all
+siteSettings:
+  e720509c-a7f5-4364-88f9-03cae61b365b: # Jokido
+    enabledByDefault: true
+    hasUrls: true
+    template: inschrijving.twig
+    uriFormat: inschrijvingen
+type: single

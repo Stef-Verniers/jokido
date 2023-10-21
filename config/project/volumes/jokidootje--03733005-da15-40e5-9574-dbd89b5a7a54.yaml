@@ -1,0 +1,43 @@
+fieldLayouts:
+  dc28fc0f-f697-44b8-be2f-11f3813e6e21:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\assets\AssetTitleField
+            uid: 9609e4b1-f2d2-4ba7-8095-6b2ac13db4e6
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: eb9917e4-c0c6-45f6-8b57-fb278c47b7e0
+        userCondition: null
+fs: pdf
+handle: jokidootje
+name: Jokidootje
+sortOrder: 2
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+transformFs: ''
+transformSubpath: ''

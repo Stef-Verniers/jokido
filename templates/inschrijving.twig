@@ -1,0 +1,14 @@
+{% extends 'index' %}
+
+{% block content %}
+
+    <div class='inschrijving-content'>
+        <h1>{{ inschrijvingen.title }}</h1>
+
+        <div class='inschrijving'>
+            <h2>{{ inschrijvingen.ondertitel }}</h2>
+            {{ inschrijvingen.inschrijvingUitleg }}
+        </div>
+    </div>
+
+{% endblock %}
