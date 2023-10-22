@@ -31,7 +31,7 @@
                 {% set posts = craft.entries.section('posts').limit(3) %}
                 {% for post in posts %}
                     {% set image = post.image.one() %}
-                    <div class="message">
+                    <div id="home-message" class="message">
                         <span class='date'>{{ post.datum|date('d-m-Y') }}</span>
                         <h2>{{ post.title }}</h2>
                         {% if image %}

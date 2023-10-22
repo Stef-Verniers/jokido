@@ -15,6 +15,7 @@
     width: 100%;
     margin: auto;
     padding: 3vh 0;
+    box-shadow: rgb(172, 172, 172) 0px 0px 35px;
 }
 
 .vb-container {
@@ -25,7 +26,6 @@
     margin: 2vh auto;
     width: 90%;
     margin-bottom: 3vh;
-    /* box-shadow: rgb(172, 172, 172) 0px 0px 35px; */
 }
 
 .hoofdleiding > h2 {
@@ -76,14 +76,17 @@
     width: 100%;
 }
 
+italic {
+    display: none;
+}
+
 @media screen and (min-width: 762px) {
 
     .leiding-content {
         width: 73vw;
         margin: auto;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto auto;
+        display: flex;
+        flex-direction: column;
         column-gap: 3vw;
         margin-bottom: 6vh;
     }
@@ -97,10 +100,37 @@
         padding-inline-start: 1vw;
     }
 
-    .hoofdleiding {
-        margin-top: 0;
-        grid-column: 1;
-        grid-row: 2;
+    .leiding-container, .vb-container {
+        background-color: white;
+        width: 100%;
+        margin: auto;
+        padding: 3vh 0;
+        box-shadow: rgb(172, 172, 172) 0px 0px 35px;
+        height: 60vh;
+    }
+    
+    .vb-container {
+        margin: 4vh auto;
+        margin-top: 4vh;
+        width: 100%;
+        position: relative;
+        height: 60vh;
+    }
+
+    .vb {
+        width: 90%;
+    }
+    
+    .hoofdleiding, .vb {
+        perspective: 1000px;
+        position: relative;
+    }
+
+    italic {
+        font-style: italic;
+        height: 3vh;
+        font-size: 14px;
+        display: block;
     }
 
     .hoofdleiding > h2 {
@@ -113,25 +143,37 @@
         margin-bottom: 1vh;
     }
 
-    .leiders {
+    .leiding-container:hover .description {
+        transform: rotateY(180deg);
+    }
+    .leiding-container:hover .leiders {
+        transform: rotateY(0);
+    }
+
+    .vb-container:hover .description {
+        transform: rotateY(180deg);
+    }
+    .vb-container:hover .leiders {
+        transform: rotateY(0);
+    }
+
+    .hoofdleiding > .leiders, .vb > .leiders {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-evenly;
         width: 100%;
-        margin-top: 4vh;
+        margin: auto;
         height: fit-content;
+        transform: rotateY(180deg);
+        margin-top: 3vh;
     }
+
+
 
     .leiders > .person {
-        max-width: 45%;
+        max-width: 30%;
         margin: 0;
         height: fit-content;
-    }
-
-    .vb {
-        grid-column: 2;
-        grid-row: 2;
-        margin-top: 0;
     }
 
     .vb > h2 {
@@ -145,18 +187,35 @@
     }
 
     .hoofdleiding > .description, .vb > .description {
-        min-height: 30vh;
-        max-height: 35vh;
+        height: 50vh;
+    }
+
+    .description, .leiders {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: transform 0.5s; /* Voeg een overgang toe voor een vloeiend onthullingseffect */
+        backface-visibility: hidden;
     }
 
     .leider-foto-vb {
-        width: 250px;
-        height: 250px;
+        width: 100%;
+        height: 100%;
         object-fit: contain;
     }
     
     .leider-foto-vb > img {
         width: 100%;
+    }
+
+    .description {
+        flex-direction: column;
+        justify-content: left;
+        align-items: start;
+        width: 90%;
     }
 
 }

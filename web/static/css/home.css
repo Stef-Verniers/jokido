@@ -103,10 +103,17 @@ section > div {
 .message {
     width: 90%;
     margin-inline: auto;
-    border-bottom: 1px solid lightgrey;
     padding-top: 3vh;
     padding-bottom: 3vh;
     height: auto;
+}
+
+#home-message {
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+#home-message:nth-child(3) {
+    border: none;
 }
 
 .message > * {
@@ -127,10 +134,6 @@ section > div {
 
 .message > img {
     width: 100%;
-}
-
-.message:nth-child(3) {
-    border: none;
 }
 
 .text {
