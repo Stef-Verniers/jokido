@@ -17,22 +17,24 @@ return GeneralConfig::create()
     // Prevent generated URLs from including "index.php"
     ->omitScriptNameInUrls()
     // Enable Dev Mode (see https://craftcms.com/guides/what-dev-mode-does)
-    ->devMode(App::env('DEV_MODE') ?? false)
+    ->devMode(App::env('DEV_MODE') ?? true)
     // Preload Single entries as Twig variables
     ->preloadSingles()
     // Allow administrative changes
-    ->allowAdminChanges(App::env('ALLOW_ADMIN_CHANGES') ?? false)
+    ->allowAdminChanges(App::env('ALLOW_ADMIN_CHANGES') ?? true)
     // Disallow robots
-    ->disallowRobots(App::env('DISALLOW_ROBOTS') ?? false)
+    ->disallowRobots(App::env('DISALLOW_ROBOTS') ?? true)
     // Prevent user enumeration attacks
     ->preventUserEnumeration()
     // Set the @webroot alias so the clear-caches command knows where to find CP resources
     ->aliases([
-        '@webroot' => dirname(__DIR__) . '/web',
+        '@webroot' => dirname(__DIR__),
     ])
     ->cpHeadTags([
         // Traditional favicon
         ['link', ['rel' => 'icon', 'href' => '/web/static/images/logo.png']],
     ])
+    ->enableCsrfCookie(App::env('DEV_MODE') ?? false)
+    
     
 ;

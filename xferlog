@@ -1,0 +1,9 @@
+[10/Nov/2023:20:02:34 +0100] 78.20.115.84 stef@jbjokidobe STOR "/data/sites/web/jbjokidobe/.env" 226 997
+[10/Nov/2023:20:05:12 +0100] 78.20.115.84 stef@jbjokidobe RETR "/data/sites/web/jbjokidobe/.env" 226 997
+[10/Nov/2023:20:08:01 +0100] 78.20.115.84 stef@jbjokidobe STOR "/data/sites/web/jbjokidobe/.env" 226 1001
+[10/Nov/2023:20:26:53 +0100] 78.20.115.84 stef@jbjokidobe STOR "/data/sites/web/jbjokidobe/.env" 226 997
+[10/Nov/2023:21:10:28 +0100] 78.20.115.84 stef@jbjokidobe STOR "/data/sites/web/jbjokidobe/.env" 226 1004
+[10/Nov/2023:21:42:13 +0100] 78.20.115.84 stef@jbjokidobe STOR "/data/sites/web/jbjokidobe/.env" 226 990
+[10/Nov/2023:21:42:22 +0100] 78.20.115.84 stef@jbjokidobe STOR "/data/sites/web/jbjokidobe/.env" 226 990
+[10/Nov/2023:21:43:35 +0100] 78.20.115.84 stef@jbjokidobe RETR "/data/sites/web/jbjokidobe/.env" 226 990
+[10/Nov/2023:21:44:41 +0100] 78.20.115.84 stef@jbjokidobe RETR "/data/sites/web/jbjokidobe/logs/access-com-linweb818.log" 226 117894

@@ -1,4 +1,4 @@
-dateModified: 1697909551
+dateModified: 1699103747
 email:
   fromEmail: jokido@jbjokido.be
   fromName: Jokido
@@ -104,6 +104,7 @@ meta:
     c3c3e4b3-9456-41cd-8c6b-fd58555d4f1b: 'Link Destination' # Link Destination
     c9c83531-0f16-4ecb-a9c2-92849d0677f2: Inschrijven # Inschrijven
     c81e8ed9-879e-4966-824f-10e4b3a8327c: Leidingsfoto # Leidingsfoto
+    cfd970ee-51de-41d3-b01f-b566af70765f: 'Verantwoordelijke tel' # Verantwoordelijke tel
     d56fd0a9-c4c5-4bca-a2fd-4481bae96738: Sponsers # Sponsers
     dcf83119-753c-48fb-9cde-bdc584866889: posts # posts
     deafcb2b-fad0-42a6-a5c2-0ff6db72ec84: Messages # Messages

@@ -38,8 +38,6 @@ backButton?.addEventListener('click', () => {
 const messagesColumn = document.querySelector('.messages');
 const sidebarColumn = document.querySelector('.sidebar');
 
-console.log(sidebarColumn)
-
 // Voeg een scrollgebeurtenisluisteraar toe aan de linker kolom
 messagesColumn.addEventListener('scroll', function () {
     const scrollTop = messagesColumn.scrollTop;
@@ -52,3 +50,12 @@ messagesColumn.addEventListener('scroll', function () {
         sidebarColumn.style.position = 'static';
     }
 });
+
+
+
+// Iframe styling
+document.addEventListener('DOMContentLoaded', () => {
+    let frame = document.querySelector('iframe')
+    console.log(frame.querySelector('#footer1'))
+    console.log('test')
+})

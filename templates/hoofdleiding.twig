@@ -19,8 +19,8 @@
                                 <div class="leider-foto-vb">
                                     <img src='{{ foto.url }}' />
                                 </div>
-                                <p>{{ leider.nummer }}</p>
-                                <p>{{ leider.email }}</p>
+                                <a href="tel:{{ leider.nummer }}" class="strong">{{ leider.nummer }}</a>
+                                <a href="mailto:{{ leider.email }}" class="strong">{{ leider.email }}</a>
                             </div>
                         {% endfor %}
                     </div>
@@ -42,7 +42,7 @@
                             <div class="leider-foto-vb">
                                 <img src='{{ foto.url }}' />
                             </div>
-                            <p>{{ leider.telefoon }}</p>
+                                <a href="tel:{{ leider.telefoon }}" class="strong">{{ leider.telefoon }}</a>
                         </div>
                     {% endfor %}
                     </div>

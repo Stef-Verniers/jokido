@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{REQUEST-URI} !^/jbjokido.be/web
+RewriteRule ^(.*)$ /jbjokido.be/web/$1 [L]
